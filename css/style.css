@@ -13,6 +13,7 @@ html, body {
 }
 
 .header {
+    min-width: 1280px;
     width: 100%;
     height: 90px;
     background-color: #212343;
@@ -21,6 +22,7 @@ html, body {
 .center {
     width: 1280px;
     margin: 0 auto;
+    padding: 0 2%;
 }
 
 .header img {
@@ -28,6 +30,7 @@ html, body {
 }
 
 .container-banner {
+    min-width: 1280px;
     width: 100%;
     height: 557px;
     background-image:url('/images/header_bg.png');
@@ -126,6 +129,7 @@ html, body {
 }
 
 .container-2 {
+    min-width: 1280px;
     padding: 40px 0px;
     background-color: rgb(196, 196, 196);
     text-align: center;
@@ -151,4 +155,53 @@ html, body {
     height: 40px;
     background-image: url(/images/arrow.png);
     background-size: 100% 100%;
+}
+
+.section-1 {
+    padding: 60px 0;
+}
+
+.section-1 h2 {
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section {
+    margin-top: 40px;
+}
+
+.container-section {
+    text-align: center;
+}
+
+.container-sigle {
+    float: left;
+    width: 33.333%;
+    padding:30px
+}
+
+.container-sigle P {
+    padding: 10PX 25px;
+}
+
+.container-sigle img {
+    width: 70px;
+}
+
+.text-container-sigle:hover p {
+    text-decoration: underline;
+}
+
+.footer {
+    clear: both;
+    border-top: 4px solid #462663;
+    padding: 30px 0;
+    text-align: center;
+    color: #888;
+     
+}
+
+.footer h2, p {
+    margin-top: 8px;    
 }
